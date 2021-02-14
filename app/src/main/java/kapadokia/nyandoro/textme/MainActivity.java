@@ -25,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        createNotificationChannel();
+
         notify_button = findViewById(R.id.notify);
         notificationText = findViewById(R.id.notifyText);
+        createNotificationChannel();
         notify_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void createNotificationChannel() {
+
+        String notifyRes = notificationText.getText().toString().trim();
         mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
         if (android.os.Build.VERSION.SDK_INT >=
@@ -51,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             notificationChannel.enableLights(true);
             notificationChannel.setLightColor(Color.RED);
             notificationChannel.enableVibration(true);
-            notificationChannel.setDescription(notificationText.getText().toString());
+            notificationChannel.setDescription(notifyRes);
             mNotificationManager.createNotificationChannel(notificationChannel);
         }
     }
