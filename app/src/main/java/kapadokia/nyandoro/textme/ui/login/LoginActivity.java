@@ -23,10 +23,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import kapadokia.nyandoro.textme.MainActivity;
+import kapadokia.nyandoro.textme.ui.main.MainActivity;
 import kapadokia.nyandoro.textme.R;
-import kapadokia.nyandoro.textme.ui.login.LoginViewModel;
-import kapadokia.nyandoro.textme.ui.login.LoginViewModelFactory;
 
 public class LoginActivity extends AppCompatActivity {
 
