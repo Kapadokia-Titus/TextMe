@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "739883796381",
+    "project_id": "text-me-f3ea8",
+    "storage_bucket": "text-me-f3ea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739883796381:android:d5431020f935f00f91d174",
+        "android_client_info": {
+          "package_name": "kapadokia.nyandoro.textme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739883796381-2j5n11bplvlpdfkp2lo4ruhm17v38aal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kapadokia.nyandoro.textme",
+            "certificate_hash": "fd5a5a1258ce0af7bc26f9c7db258d33174663de"
+          }
+        },
+        {
+          "client_id": "739883796381-bk122n7pns40lntsuu80nk5gfmdfg03e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_C5fy8QSQcV8OoIMDE6v4Gh1e-bpHrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739883796381-bk122n7pns40lntsuu80nk5gfmdfg03e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
